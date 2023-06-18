@@ -18,8 +18,8 @@ def get_btc_price():
 
 
 def calculate_changes(prices_eth, prices_btc):
-    price_change_btc = (prices_btc[-1] - min(prices_btc)) / prices_btc[0] * 10000
-    price_change_eth = (prices_eth[-1] - min(prices_eth)) / prices_eth[0] * 10000
+    price_change_btc = (prices_btc[-1] - min(prices_btc)) / prices_btc[0] * 100
+    price_change_eth = (prices_eth[-1] - min(prices_eth)) / prices_eth[0] * 100
     # Show actual price
     # print(f"Change eth: {price_change_eth:.2f}%")
     # print(f"Change btc: {price_change_btc:.2f}%")
