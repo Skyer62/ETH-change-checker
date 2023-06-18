@@ -3,7 +3,7 @@ Tracks the price of ETHUSDT over the last hour without the influence of BTCUSDT.
 # Starting
 1. Clone git
 ```sh
-git clone [https://github.com/vadim62/hw05_final](https://github.com/Skyer62/ETH-change-checker)https://github.com/Skyer62/ETH-change-checker
+git clone https://github.com/Skyer62/ETH-change-checker
 ```
 
 2. Start main.py
